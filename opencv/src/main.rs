@@ -7,7 +7,7 @@ use opencv::{
 };
 
 fn main() -> Result<()> {
-    let image = imgcodecs::imread("imagem.jpg", imgcodecs::IMREAD_COLOR)?;
+    let image = imgcodecs::imread("image.png", imgcodecs::IMREAD_COLOR)?;
     highgui::imshow("Janela", &image)?;
     highgui::wait_key(0)?;
     Ok(())
