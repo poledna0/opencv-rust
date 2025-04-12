@@ -1,14 +1,12 @@
 use opencv::{
-    core,
     highgui,
     imgcodecs,
-    prelude::*,
     Result,
 };
 
 fn main() -> Result<()> {
-    let image = imgcodecs::imread("image.png", imgcodecs::IMREAD_COLOR)?;
-    highgui::imshow("Janela", &image)?;
+    let imagem = imgcodecs::imread("iamgem.png", imgcodecs::IMREAD_COLOR)?;
+    highgui::imshow("Janela", &imagem)?;
     highgui::wait_key(0)?;
     Ok(())
 }
