@@ -1,0 +1,1 @@
+cria uma img branca e coloca um quadrado preto

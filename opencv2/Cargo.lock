@@ -157,7 +157,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "openvc2"
+name = "opencv2"
 version = "0.1.0"
 dependencies = [
  "opencv",
