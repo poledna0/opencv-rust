@@ -1,7 +1,0 @@
-imgcodecs::imread - le img do disco
-highgui::imshow - mostra imagem em uma janela
-highgui::wait_key(0) - espera uma tecla ser precionada
-Result<()> - retorno padrao opencv para erros
-imgproc::cvt_color
-imgproc::rectangle
-videoio::VideoCapture
